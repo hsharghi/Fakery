@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		0F2E001320C6B6F9005AE9E8 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E001220C6B6F9005AE9E8 /* Date.swift */; };
 		OBJ_102 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* BaseTestCase.swift */; };
 		OBJ_103 /* LinuxTestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* LinuxTestable.swift */; };
 		OBJ_104 /* XCAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* XCAssertions.swift */; };
@@ -76,6 +77,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F2E001220C6B6F9005AE9E8 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		"Fakery::Fakery::Product" /* Fakery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Fakery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Fakery::FakeryTests::Product" /* FakeryTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = FakeryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_11 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				OBJ_24 /* Internet.swift */,
 				OBJ_25 /* Lorem.swift */,
 				OBJ_26 /* Name.swift */,
+				0F2E001220C6B6F9005AE9E8 /* Date.swift */,
 				OBJ_27 /* Number.swift */,
 				OBJ_28 /* PhoneNumber.swift */,
 				OBJ_29 /* Team.swift */,
@@ -229,7 +232,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -241,7 +244,6 @@
 				OBJ_39 /* Dependencies */,
 				OBJ_45 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -363,7 +365,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_45 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -401,6 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				0F2E001320C6B6F9005AE9E8 /* Date.swift in Sources */,
 				OBJ_54 /* Config.swift in Sources */,
 				OBJ_55 /* Parser.swift in Sources */,
 				OBJ_56 /* Provider.swift in Sources */,

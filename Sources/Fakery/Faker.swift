@@ -21,6 +21,7 @@ public final class Faker {
   public let team: Team
   public let number: Number
   public let bank: Bank
+  public let date: FakeDate
 
   let parser: Parser
 
@@ -41,5 +42,6 @@ public final class Faker {
     team = Team(parser: parser)
     number = Number()
     bank = Bank(parser: parser)
+    date = FakeDate()
   }
 }
