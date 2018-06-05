@@ -18,6 +18,9 @@ public final class FakeDate {
     }
     
     public func between(from: Date, to: Date) -> Date {
+        guard from <= to else {
+            return Date()
+        }
         let range: CountableClosedRange = Int(from.timeIntervalSince1970)...Int(to.timeIntervalSince1970)
         let timeInterval = Random.int(range: range)
         return Date(timeIntervalSince1970: TimeInterval(timeInterval))
